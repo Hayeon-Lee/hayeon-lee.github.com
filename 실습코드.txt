@@ -1,0 +1,66 @@
+//class 이름 : ArrayEX
+package day4;
+
+public class ArrayEX {
+	public static void main(String[] args) {
+		int [] n = {1,2,3,4,5}; //배열 생성 방법
+		int sum = 0;
+		
+		/*for (int i=0; i<n.length;i++) {
+			int k = n[i];
+			sum += k;
+		}이 for 반복문을 아래로 바꾸면 */
+		
+		for (int k:n) //k에 n의 값을 하나씩 넣을 수 있음
+			sum+=k;
+		System.out.println(sum);
+	}
+}
+
+//class 이름 : Circle
+package day4;
+
+public class Circle {
+	int radius;
+	String name;
+	
+	public double getArea() {
+		return 3.14*radius*radius;
+	}
+	
+	public static void main (String[] args) {
+		Circle pizza; //Circle이라는 틀로 객체를 만들 것이고, 이 이름을 정한 것
+		pizza = new Circle(); //실제 이 이름에 객체를 생성해줌
+		
+		pizza.name = "자바피자";
+		pizza.radius = 10;
+		
+		System.out.println(pizza.name + "의 면적은 " + pizza.getArea());
+	}
+}
+
+//class 이름 : RectApp
+package day4;
+import java.util.Scanner;
+
+class Rectangle{
+	int width;
+	int height;
+	public int getArea() {
+		return width*height;
+	}
+}
+
+public class RectApp {
+	
+	public static void main(String args[]) {
+		Rectangle rect = new Rectangle();
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print(">> ");
+		rect.width = scanner.nextInt();
+		rect.height = scanner.nextInt();
+		System.out.println("사각형의 면적은 "+rect.getArea());
+		scanner.close();
+ 	}
+}
