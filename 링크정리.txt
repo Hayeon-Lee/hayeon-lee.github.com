@@ -1,0 +1,17 @@
+virtualbox+ubuntu 18.04로 서버 구축 -> 리눅스 20.04 버전 아니어서 신뢰X
+https://mooonchivekr.blogspot.com/2019/10/virtualbox-ubuntu-1804-server-homepage.html
+
+우분투에서 mysql의 root계정이 로그인 안될 때
+https://bscnote.tistory.com/77
+
+[전계열] DB 유저 권한 설정(부여/회수/조회) 및 예시, 에러 대처법
+https://m.blog.naver.com/PostView.nhn?blogId=sung_mk1919&logNo=221483614338&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+우분투 18.04에 LAMP 설치하는 방법
+https://webnautes.tistory.com/1185?category=754099
+
+아파치2 설치(우분투 16.04)
+https://lng1982.tistory.com/288
+
+OSX Homebrew mysql8에서 5.7로 변경하는 방법
+https://www.hides.kr/1061
